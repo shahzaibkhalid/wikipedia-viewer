@@ -1,0 +1,125 @@
+::selection {
+    color: white;
+    background-color: rosybrown;
+}
+
+body {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+/* styling top heading */
+.heading {
+    font-size: 80px;
+    color: rosybrown;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    margin: 15px auto;
+}
+
+/* styling sub-heading */
+.sub-heading {
+    font-size: 45px;
+    color: rosybrown;
+    font-family: 'Amatic SC', sans-serif;
+    text-align: center;
+    margin: 0 auto 30px auto;
+}
+
+/* using media queries to properly scale heading's font size */
+@media only screen and (max-width: 700px) {
+    .heading {
+        font-size: 50px;
+    }
+    .sub-heading {
+        font-size: 26px;
+    }
+}
+
+.centering-input {
+    text-align: center;
+}
+
+label {
+    background-color: rosybrown;
+    color: white;
+    padding: 7px;
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+input {
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 16px;
+    color: rosybrown;
+    border: 2px solid rosybrown;
+    outline: 0;
+}
+
+button {
+    font-size: 16px;
+    color: rosybrown;
+    background-color: white;
+    padding: 7px;
+    border-radius: 20px;
+    border: 2px solid rosybrown;
+    margin: 0 5px;
+    cursor: pointer;
+    outline: 0;
+}
+
+button:hover {
+    background-color: rosybrown;
+    color: white;
+}
+
+.single-entry {
+    box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+    background-color: white;
+    margin-top: 40px;
+    min-height: 150px;
+    padding: 5px 20px 0px 20px;
+}
+#single-entry-heading, #single-entry-paragraph {
+    color: rosybrown;
+}
+
+#single-entry-paragraph {
+    line-height: 160%;
+}
+
+#single-entry-link {
+    display: inline-block;
+    background-color: rosybrown;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-bottom: 20px;
+    
+}
+.error-div-style {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    color: rosybrown;
+}
+/* styling footer texts */
+footer {
+    margin-top: 50px;
+}
+.footer-personal {
+    text-align: center;
+    font-size: 16px;
+    color: rosybrown;
+}
+.footer-code-license {
+    text-align: center;
+    font-size: 14px;
+    color: rosybrown;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
