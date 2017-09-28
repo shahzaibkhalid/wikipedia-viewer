@@ -12,7 +12,7 @@ This is how Wikipedia Viewer looks like:
 ![wikipedia-viewer](./images/wikipedia-viewer-2.png)
 ![wikipedia-viewer](./images/wikipedia-viewer-3.png)
 ## Use
-You can use Wikipedia Viewer by clicking [here](https://shahzaibkhalid.github.io/sassy-clock/)
+You can use Wikipedia Viewer by clicking [here](https://shahzaibkhalid.github.io/wikipedia-viewer/)
 
 # License
 Wikipedia Viewer is licensed under the [MIT License](https://github.com/shahzaibkhalid/wikipedia-viewer/blob/master/LICENSE.txt).
