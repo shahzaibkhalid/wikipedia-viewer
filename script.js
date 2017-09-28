@@ -1,3 +1,10 @@
+/**
+ * 
+ * Gets called every time something is written inside search input field and find button is pressed. 
+ * This function finds for JSON data from Wikipedia API asynchorously using Promises and thus dsplays 
+ * data into related HTML tags.
+ * 
+ */
 function update() {
     let queryToSearch = document.getElementById('query-string').value;
 
@@ -23,6 +30,13 @@ function update() {
     });
 }
 
+/**
+ * It returns a Promise and sends an asynchronous requests to get data
+ * 
+ * @param query - unique string to query against
+ * @param method method of fetching the data (like GET)
+ * @returns - a native Promise to fetch data from Wikipedia API
+ */
 function getData(query, method) {
     return new Promise(function(resolve, reject){
         let xhr = new XMLHttpRequest();

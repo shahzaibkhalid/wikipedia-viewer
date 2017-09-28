@@ -1,8 +1,10 @@
+/* adding selection style for better visuals */
 ::selection {
     color: white;
     background-color: rosybrown;
 }
 
+/* setting a one-place font style and background color for whole body */
 body {
     font-family: 'Encode Sans Expanded', sans-serif;
     background-color: #f2f2f2;
@@ -37,10 +39,12 @@ body {
     }
 }
 
+/* centering the input div block */
 .centering-input {
     text-align: center;
 }
 
+/* styling custom label */
 label {
     background-color: rosybrown;
     color: white;
@@ -49,6 +53,7 @@ label {
     text-transform: uppercase;
 }
 
+/* styling custom input container */
 input {
     border-radius: 10px;
     padding: 7px;
@@ -58,6 +63,7 @@ input {
     outline: 0;
 }
 
+/* styling custom search button */
 button {
     font-size: 16px;
     color: rosybrown;
@@ -70,11 +76,13 @@ button {
     outline: 0;
 }
 
+/* adding hover effect to button */
 button:hover {
     background-color: rosybrown;
     color: white;
 }
 
+/* styling a single Wikipedia entry div */
 .single-entry {
     box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
     background-color: white;
@@ -82,6 +90,8 @@ button:hover {
     min-height: 150px;
     padding: 5px 20px 0px 20px;
 }
+
+/* styling single entry headings, paragraphs & links */
 #single-entry-heading, #single-entry-paragraph {
     color: rosybrown;
 }
@@ -99,12 +109,15 @@ button:hover {
     margin-bottom: 20px;
     
 }
+
+/* styling the error div that comes up when data is not fetched */
 .error-div-style {
     margin-top: 50px;
     text-align: center;
     font-size: 24px;
     color: rosybrown;
 }
+
 /* styling footer texts */
 footer {
     margin-top: 50px;
