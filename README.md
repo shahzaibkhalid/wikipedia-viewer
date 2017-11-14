@@ -16,7 +16,7 @@ This is how Wikipedia Viewer looks like:
 ## Use
 You can use Wikipedia Viewer by clicking [here](https://shahzaibkhalid.github.io/wikipedia-viewer/)
 
-# License
+## License
 Wikipedia Viewer is licensed under the [MIT License](https://github.com/shahzaibkhalid/wikipedia-viewer/blob/master/LICENSE.txt).
 
 Copyright (c) 2017 Shahzaib Khalid
